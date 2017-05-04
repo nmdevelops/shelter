@@ -47,3 +47,34 @@ img.pet {
   padding: 10px;
   border: 3px solid green;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) and (orientation: landscape) {
+  body {
+    background-color: teal;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  body {
+    background-color: #efefef;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  li.topbutton {
+    display: block;
+    margin: 2px;
+    padding:2px;
+  }
+}
